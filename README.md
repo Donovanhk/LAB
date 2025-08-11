@@ -5,16 +5,20 @@ VM / Hardware level
  - Azure, Security, AVD, W365 (via IaC)
  - Azure for study
  - (Oracle) Optional.
+ - codespace in GitHub
 
-IaC
-- Terraform /GitHub
-
-DevOp
-- Ansible / GitHub. 
-
-connect
+GitHub
+- IaC/ Terraform
+- DevOp/ Ansible.
+- CodeSpace
 
 Codespace
+🔌 Networking	curl	Make HTTP requests
+	wget	Download files from web
+	nslookup	DNS lookup
+	telnet	Test port connectivity
+	ssh	Connect to remote servers
+ 
 Category	Command	Description
 📄 File Viewing	cat	View file contents
 	less	View file contents page by page
@@ -30,11 +34,8 @@ Category	Command	Description
 	du	Show file/directory size
 	free	Show memory usage
 
-🔌 Networking	curl	Make HTTP requests
-	wget	Download files from web
-	nslookup	DNS lookup
-	telnet	Test port connectivity
-	ssh	Connect to remote servers
 🔐 Permissions	chmod	Change file permissions
 	chown	Change file ownership
 📦 Package Mgmt	apt-get	Install packages (Ubuntu-based containers)
+
+https://www.geeksforgeeks.org/linux-unix/linux-commands-cheat-sheet/
