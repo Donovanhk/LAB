@@ -1,3 +1,7 @@
+# Disable Defender via Local Group Policy registry key
+New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Force | Out-Null
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableAntiSpyware" -Value 1
+
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
 Set-MpPreference -DisableRealtimeMonitoring $true
