@@ -32,23 +32,6 @@ Set-Service -Name wuauserv -StartupType Disabled
 Write-Host "Disabling SmartScreen..."
 Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\Explorer" -Name "SmartScreenEnabled" -Value "Off"
 
-# --- Disable Background Services ---
-$servicesToDisable = @(
-    "DiagTrack",         # Connected User Experiences and Telemetry
-    "dmwappushservice",  # WAP Push Message Routing
-    "MapsBroker",        # Maps updates
-    "WSearch",           # Windows Search
-    "Fax",               # Fax service
-    "XblGameSave",       # Xbox Live Game Save
-    "XboxNetApiSvc",     # Xbox Networking
-    "RetailDemo"         # Retail Demo Service
-)
-
-foreach ($svc in $servicesToDisable) {
-    Write-Host "Disabling service: $svc"
-    Stop-Service -Name $svc -ErrorAction SilentlyContinue
-    Set-Service -Name $svc -StartupType Disabled
-}
 
 # --- Disable Cortana (via registry) ---
 Write-Host "Disabling Cortana..."
@@ -65,10 +48,6 @@ Write-Host "Disabling consumer features..."
 Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" -Name "SubscribedContent-338388Enabled" -Value 0
 Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" -Name "SubscribedContent-310093Enabled" -Value 0
 Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" -Name "SubscribedContent-314563Enabled" -Value 0
-
-# --- Final Message ---
-Write-Host "`n✅ System trimmed down for lab use. Reboot recommended to apply all changes."
-
 
 
 # Set for best performance (disables animations, shadows, etc.)
