@@ -1,0 +1,66 @@
+1. Cloud & DevOps (Big Leap from Traditional Infra)
+Learn: 
+- AWS/ Azure / Google
+- Terraform, Ansible. Infrastructure as Code (IaC)
+
+PowerShell, Azure CLI, or GitHub Actions.
+
+AWS Solutions Architect, Azure Administrator, 
+Python scripting, PowerShell automation, ServiceNow, Logic Apps, Azure Monitor.
+
+Top 30 Free Internet Tools for IT Experts
+Infrastructure & DevOps
+	1.	Terraform (by HashiCorp) – Infrastructure as Code (IaC) for automating cloud deployments.
+	2.	Ansible – Configuration management and automation.
+	3.	GitHub/GitLab (Free Tier) – Source control, CI/CD, project management.
+	4.	Prometheus + Grafana – Time-series monitoring and data visualization. 
+	5.	Netdata – Real-time performance monitoring for servers and apps.
+	6.	Zabbix – Full-featured open-source monitoring platform.	
+	7.	Docker – Container platform for apps, services, and testing.
+	8.	Portainer – GUI for Docker container management. 
+
+☁️ Cloud & Virtualization
+	9.	Oracle Cloud Free Tier – 2 always-free VMs + DB, storage, etc.
+	10.	AWS Free Tier – EC2, S3, Lambda, and more (12-months or always free).
+	11.	GCP Free Tier – F1-micro VM, BigQuery, Cloud Run, etc.
+	12.	Azure Free Tier – B1S VM, Functions, SQL DB, more.
+	13.	Vultr / Linode / Hetzner Trials – Short-term free credits for virtual machines.
+
+🧰 Networking & Security
+	14.	Wireshark – Network packet analyzer.
+	15.	Nmap – Network scanner & security auditing tool.
+	16.	OpenVPN / WireGuard – Secure tunneling & VPN setup.
+	17.	UptimeRobot (Free Tier) – Website/server monitoring (50 monitors, 5-min interval).
+	18.	SSL Labs (Qualys) – Analyze your site’s SSL/TLS security.
+	19.	IPinfo / ip-api – Public IP address info, geolocation, API.
+	20.	Shodan (Free account) – Search engine for exposed IoT/servers.
+
+⸻
+
+🌐 Web Tools & Testing
+	21.	Postman (Free Tier) – API testing and documentation tool.
+	22.	ngrok (Free Tier) – Public URLs for local servers (great for testing APIs).
+	23.	Netlify / Vercel (Free Tier) – Free web hosting for static sites, JAMstack apps.
+	24.	Pagespeed Insights – Google tool for web performance optimization.
+	25.	GTMetrix – Website speed and optimization tester.
+
+⸻
+
+📊 Data & Logs
+	26.	Loggly (Free Tier) – Centralized log analysis.
+	27.	ELK Stack (Elasticsearch, Logstash, Kibana) – Full logging pipeline.
+	28.	BigQuery (GCP Free Tier) – Analyze massive datasets for free (1 TB/month queries).
+	29.	Redash (Open Source) – Connect to databases and visualize data queries.
+
+⸻
+
+👨‍💻 Miscellaneous Must-Haves
+	30.	Visual Studio Code – Free, lightweight IDE with tons of extensions.
+
+⸻
+
+✅ Honorable Mentions (Highly Useful Freebies)
+	•	Cloudflare Free Plan – DDoS protection, CDN, DNS, SSL
+	•	Hack The Box / TryHackMe (Free Labs) – Learn cybersecurity hands-on
+	•	Draw.io (diagrams.net) – Free cloud architecture and network diagramming
+	•	CyberChef (GCHQ) – “The Swiss Army Knife for data” – encoding, decoding, regex, etc.
